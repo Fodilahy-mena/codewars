@@ -13,7 +13,7 @@
 // ---------
 
 // This solution is clear and easy to understand
-function solution(number){
+function multiplesOf3or5(number){
     let sum = 0;
     for (let i = 0; i < number; i++) {
       if (i % 3 === 0 || i % 5 === 0) {
@@ -24,4 +24,4 @@ function solution(number){
     return sum
 }
 
-solution(10)
+multiplesOf3or5(10)
